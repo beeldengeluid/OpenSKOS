@@ -1,6 +1,8 @@
+# OpenSKOS
+
 [![Build Status](https://travis-ci.org/picturae/OpenSKOS.svg)](https://travis-ci.org/picturae/OpenSKOS)
 
-# 1. Install the OpenSKOS code
+## 1. Install the OpenSKOS code
 
 Copy the code to a location of your choice.
 
@@ -80,7 +82,7 @@ All unlisted collections will be ordered after the listed ones.
 All listed collections that re not present in the DB will be skipped.
 In this way the ini supports collection ordering for more than 1 instances.
 
-# 2. Webserver with PHP support
+## 2. Webserver with PHP support
 
 You can install your favourite webserver with PHP support.
 All development and testing was done using Apache/2.2.15 with PHP 5.3.8
@@ -109,7 +111,7 @@ The following is a sample VHOST you might want to consider for your project.
 </VirtualHost>
 ```
 
-# 3. Database setup
+## 3. Database setup
 
 Install your choice of Zend Framework supported Database engine (see
 http://framework.zend.com/manual/en/zend.db.adapter.html). The credentials to
@@ -125,8 +127,7 @@ You also have to run the php-script to create a tenant:
 With this account created you can login into the dashboard,
 where you can manage all the other entities of the application.
 
-
-# 4. Apache Jena Fuseki setup
+## 4. Apache Jena Fuseki setup
 
 Openskos uses Fuseki 2 for storage. At the time of writing this doc latest stable version is 2.3.0
 
@@ -143,7 +144,7 @@ Installing Fuseki 2 for development purposes:
   1. The docs say that Fuseki requires Java 7, but if you have the error `Unsupported major.minor version 52.0` try updating your Java, or go for Java 8 directly.
 5. Now you will have the fuseki server up and running on [http://localhost:3030/](http://localhost:3030/) with "openskos" dataset defined. This is also the default config in openskos' `application.ini.dist` - item `sparql`
 
-# 5. Apache Solr Setup
+## 5. Apache Solr Setup
 
 You have to have a java VM installed prior to installing Solr!
 Download a 3.4 release of Apache Solr and extract it somewhere on your server:
@@ -158,7 +159,7 @@ You can now start Solr (in this example with 1,024 MB memory assigned):
     java -Dsolr.solr.home="./openskos" -Xms1024m -Xmx1024m -jar start.jar
 
 
-# 6. Data Ingest
+## 6. Data Ingest
 
 Once you have the application running you can start adding data,
 managed in `collections`.
