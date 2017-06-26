@@ -113,8 +113,8 @@ The following is a sample VHOST you might want to consider for your project.
 
 ## 3. Database setup
 
-Install your choice of Zend Framework supported Database engine (see
-http://framework.zend.com/manual/en/zend.db.adapter.html). The credentials to
+Install your choice of Zend Framework supported Database engine (see: 
+https://framework.zend.com/manual/1.12/en/zend.db.adapter.html). The credentials to
 access your database can be configured in the application's configuration.
 
 Once you have created an empty database, you have to run the SQL script
