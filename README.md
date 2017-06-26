@@ -87,7 +87,7 @@ In this way the ini supports collection ordering for more than 1 instances.
 You can install your favourite webserver with PHP support.
 All development and testing was done using Apache/2.2.15 with PHP 5.3.8
 Make sure your PHP installation supports at least one supported Database
-adapters (see http://framework.zend.com/manual/en/zend.db.adapter.html)
+adapters (see: https://framework.zend.com/manual/1.12/en/zend.db.adapter.html)
 
 ## 2.1 Setting Up Your VHOST
 
