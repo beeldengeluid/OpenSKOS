@@ -1,4 +1,4 @@
-# OpenSKOS
+# OpenSKOS 
 
 [![Build Status](https://travis-ci.org/picturae/OpenSKOS.svg)](https://travis-ci.org/picturae/OpenSKOS)
 
